@@ -3,20 +3,22 @@
 {% block customstyle %}
 {{ block.super }}
 <style>
-section {
-    min-height: 6rem;
-    font-size: 1.5rem;
-}
-section:first-of-type {
-    min-height: unset;
-    margin-bottom: 3rem;
-}
-section h2 {
-    font-size: 2rem;
-    font-weight: 900;
-    margin: 0;
-    padding: 0;
-}
+    section {
+        min-height: 6rem;
+        font-size: 1.5rem;
+    }
+
+    section:first-of-type {
+        min-height: unset;
+        margin-bottom: 3rem;
+    }
+
+    section h2 {
+        font-size: 2rem;
+        font-weight: 900;
+        margin: 0;
+        padding: 0;
+    }
 </style>
 {% endblock %}
 
@@ -34,7 +36,8 @@ section h2 {
             <div class="pr-3">
                 <span class="fa-stack" style="width: 2em;">
                     <i class="fas fa-circle fa-stack-2x"></i>
-                    <span class="fa-stack-1x fa-inverse text-center" style="font-size: 1.25em; font-weight: 900;">1</span>
+                    <span class="fa-stack-1x fa-inverse text-center"
+                        style="font-size: 1.25em; font-weight: 900;">1</span>
                 </span>
             </div>
             <div>
@@ -48,19 +51,23 @@ section h2 {
     <div class="container-xl">
         <div class="d-inline-flex align-items-center">
             <div class="pr-3">
-                <span class="fa-stack" style="width: 2em;">
+                <span class="fa-stack custom-circle">
                     <i class="fas fa-circle fa-stack-2x"></i>
-                    <span class="fa-stack-1x fa-inverse text-center" style="font-size: 1.25em; font-weight: 900;">2</span>
+                    <span class="fa-stack-1x fa-inverse text-center"
+                        style="font-size: 1.25em; font-weight: 900;">2</span>
                 </span>
+
             </div>
             <div>
                 <h2>Demonstrate skills</h2>
             </div>
         </div>
         <div class="py-4" style="padding-left: 76px;">
-            <p>Showcase your skills and proficiency with tools including the shell, github, python, virtualenv, and Django.</p>
+            <p>Showcase your skills and proficiency with tools including the shell, github, python, virtualenv, and
+                Django.</p>
             <ul>
-                <li>Clone this project from <a href="https://github.com/vishalapte/python-jobs/">github.com/vishalapte/python-jobs/</a></li>
+                <li>Clone this project from <a
+                        href="https://github.com/vishalapte/python-jobs/">github.com/vishalapte/python-jobs/</a></li>
                 <li>Configure your environment</li>
                 <li>Run a test server and load this page from the test server</li>
                 <li>Modify this page to change the color of the circle for bullet 2 to red</li>
@@ -76,7 +83,8 @@ section h2 {
             <div class="pr-3">
                 <span class="fa-stack" style="width: 2em;">
                     <i class="fas fa-circle fa-stack-2x"></i>
-                    <span class="fa-stack-1x fa-inverse text-center" style="font-size: 1.25em; font-weight: 900;">3</span>
+                    <span class="fa-stack-1x fa-inverse text-center"
+                        style="font-size: 1.25em; font-weight: 900;">3</span>
                 </span>
             </div>
             <div>
